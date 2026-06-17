@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Aurora Beauty" },
+      { name: "description", content: "Aurora Beauty Lounge is a sophisticated website for a beauty salon." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Aurora Beauty" },
+      { property: "og:description", content: "Aurora Beauty Lounge is a sophisticated website for a beauty salon." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Aurora Beauty" },
+      { name: "twitter:description", content: "Aurora Beauty Lounge is a sophisticated website for a beauty salon." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3f6ff703-6b1a-4ff8-8475-49471b38d0fa/id-preview-2d029478--0eadd391-3759-4454-8d61-3a825135f69f.lovable.app-1781661686720.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3f6ff703-6b1a-4ff8-8475-49471b38d0fa/id-preview-2d029478--0eadd391-3759-4454-8d61-3a825135f69f.lovable.app-1781661686720.png" },
     ],
     links: [
       {
